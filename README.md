@@ -33,11 +33,11 @@ The Next.js/TypeScript interface displays the data, showing I'm comfortable with
 
 More specifically, this project shows I have experience with:
 
-- Handling API authentication for social platforms via the Reddit API's OAuth flow
-- Using **asynchronous code** (asyncio) so the app can handle multiple API requests efficiently without getting stuck - super important for automation
-- Dealing with **rate limits** – those rules about how often you can ping an API. The techniques used here work for other APIs like Twitter v2 as well
-- Writing solid **error handling** so the automation doesn't crash easily
-- Plugging in **AI services** (like OpenAI in ai_services.py for summaries). This shows I can work with AI for tasks and understand basic prompt engineering, which could be used for smart engagement later
+- Handling API authentication for social platforms
+- Using **asynchronous code** (asyncio) efficiently without getting stuck - super important for automation
+- Dealing with **rate limits**
+- Writing solid **error handling**
+- Plugging in **AI services** (like OpenAI in `ai_services.py` for summaries)
 - Clear **logging** and organized code, which makes debugging much easier
 
 ### Additional Related Experience
@@ -56,7 +56,7 @@ These skills are directly applicable to the media upload processing (MP4, MOV) r
 
 Here's how everything fits together:
 
-```
+```text
 reddit-post-fetcher/
 ├── reddit_fetcher.py           # Core API interaction module (Python, Asyncio)
 ├── api_server.py               # FastAPI server (Python, REST API)
