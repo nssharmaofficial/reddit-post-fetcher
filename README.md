@@ -116,7 +116,6 @@ This is the web interface built with Next.js/TypeScript.
 
     ```bash
     poetry install
-    poetry shell
     ```
 
 3. **Set up your environment variables**
@@ -149,10 +148,10 @@ You can use the application in different ways:
 
 ```bash
 # Get 5 posts from r/python (default)
-python reddit_fetcher.py
+poetry run python reddit_fetcher.py
 
 # Or customize it
-python reddit_fetcher.py --subreddit AskReddit --limit 10
+poetry run python reddit_fetcher.py --subreddit AskReddit --limit 10
 ```
 
 #### API Server
