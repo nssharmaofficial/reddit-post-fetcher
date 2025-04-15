@@ -34,7 +34,7 @@ The Next.js/TypeScript interface displays the data, showing I'm comfortable with
 More specifically, this project shows I have experience with:
 
 - Handling API authentication for social platforms
-- Using **asynchronous code** (asyncio) efficiently without getting stuck - super important for automation
+- Using **asynchronous code** (asyncio)
 - Dealing with **rate limits**
 - Writing solid **error handling**
 - Plugging in **AI services** (like OpenAI in `ai_services.py` for summaries)
@@ -98,6 +98,9 @@ This is the web interface built with Next.js/TypeScript.
 - Python 3.10+ (for the asyncio features and type hints)
 - Node.js 18+ (for the frontend)
 - Reddit API credentials (sign up at <https://www.reddit.com/prefs/apps>)
+    Go to [Reddit App Preferences](https://www.reddit.com/prefs/apps) and click on create another app at the bottom.
+  - Fill out the required details, make sure to select **script** and click on create app.
+  - Make a note of the **personal use script** and  **secret token**
 - OpenAI API key (for AI summaries)
 
 ### Installation
